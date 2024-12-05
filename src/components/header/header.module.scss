@@ -1,0 +1,60 @@
+header {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 27, 47, 1) 0%,
+    rgba(0, 86, 149, 1) 88%
+  );
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh;
+}
+.boxLogo {
+//   border: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  gap: 1rem;
+  img {
+    width: 3vw;
+  }
+  h1 {
+    color: #fff;
+  }
+}
+.boxNavigation {
+//   border: solid;
+  width: 50vw;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  li {
+    color: #fff;
+  }
+}
+.boxSearch{
+    border: solid 2px white;
+    width: 20vw;
+    height: 6vh;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    input{
+        background-color: transparent;
+        outline: none;
+        border: none;
+        color: white;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        &::placeholder{
+            color: white;
+        }
+    }
+}
